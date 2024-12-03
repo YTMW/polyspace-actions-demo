@@ -1,7 +1,5 @@
 name: Run Polyspace analysis on PR
 on: [push]
-  branches:
-    - '**' #All branches
 jobs:
   my-job:
     name: Run analysis
